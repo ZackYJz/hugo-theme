@@ -1,0 +1,28 @@
+- id: last_mod_on
+  translation: 最后修改于 {{ .Format "2006-01-02" }}
+- id: format_date
+  translation: '{{ .Format "2006-01-02" }}'
+- id: format_date_tosec
+  translation: '{{ .Format "2006-01-02 15:04" }}'
+- id: next_link
+  translation: '上一篇'
+- id: prev_link
+  translation: '下一篇'
+- id: no_newer_posts
+  translation: 没有了😅
+- id: no_older_posts
+  translation: 🤔还没想好
+- id: comments_disabled
+  translation: 评论功能已经停用。
+- id: comments_activate_js
+  translation: 请开启 JavaScript 以便使用评论服务。
+- id: hugo_theme
+  translation: Hugo Theme
+- id: ported_from
+  translation: 移植自
+- id: by
+  translation: by
+- id: draft
+  translation: 草稿
+- id: toc_title
+  translation: 目录

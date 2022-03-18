@@ -1,0 +1,10 @@
+<!-- Please don't remove the information of theme makers. -->
+Powered by <a href="https://github.com/gohugoio/hugo">hugo</a>
+<br>
+<!-- Because this project is under MIT licence. -->
+&copy;
+	{{ if .Site.Copyright }}
+	{{ .Site.Copyright }}
+	{{ else }}
+	{{.Site.Home.Date.Year}} {{.Site.Title}}
+	{{ end }}
